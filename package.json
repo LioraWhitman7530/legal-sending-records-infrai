@@ -1,0 +1,9 @@
+{
+  "name": "legal-sending-records-infrai",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types src/publish_records.test.ts",
+    "publish": "node --experimental-strip-types src/publish_records.ts"
+  }
+}
